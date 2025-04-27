@@ -1,0 +1,9 @@
+x=input("please enter the srting you want to find the frequency of")
+y={}
+for i in x:
+    if i in y:
+        y[i] += 1
+    else:
+        y[i] = 1
+
+print(y)

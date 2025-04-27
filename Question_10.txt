@@ -1,0 +1,4 @@
+x=[1,2,3,9,7,6,5]
+y=[1,44,33,55,33,2,3,11]
+common= [i for i in x if i in y]
+print(common)

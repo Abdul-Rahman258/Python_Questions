@@ -1,0 +1,4 @@
+x=input("please enter a string you want to count vowels of")
+vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
+y=sum(1 for i in x if i in vowels)
+print("Number of vowels:", y)

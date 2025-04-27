@@ -1,0 +1,4 @@
+x = input("Enter a string: ")
+y = x.swapcase()
+z = y
+print(z)

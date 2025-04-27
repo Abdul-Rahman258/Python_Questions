@@ -1,0 +1,4 @@
+x = input("Enter a string: ")
+while '()' in x or '[]' in x or '{}' in x:
+    x = x.replace('()', '').replace('[]', '').replace('{}', '')
+print(x == "")

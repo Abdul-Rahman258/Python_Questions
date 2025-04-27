@@ -1,0 +1,4 @@
+x = input("Enter a string: ")
+y = input("Enter the target character: ")
+z = [min(abs(i - j) for j in range(len(x)) if x[j] == y) for i in range(len(x))]
+print(z)

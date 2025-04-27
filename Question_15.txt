@@ -1,0 +1,4 @@
+x = input("Enter a sentence: ")
+y = x.split()
+z = max(y, key=len)
+print(z)

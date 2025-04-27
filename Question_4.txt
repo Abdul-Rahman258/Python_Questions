@@ -1,0 +1,4 @@
+x = list(map(int, input("Enter three numbers separated by spaces: ").split()))
+y = min(x)
+z = max(x)
+print(f"Min: {y}, Max: {z}")
